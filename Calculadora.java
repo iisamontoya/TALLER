@@ -18,12 +18,16 @@ Scanner scanner = new Scanner(System.in);
         double resultado;
 
         switch(operacion) {
-                        case"+":
+        case"+":
                         resultado num= num1 + num2;
                 System.out.println("Resultado: " + resultado);
                 break;
-            case '-':
+        case '-':
                 resultado = num1 - num2;
+                System.out.println("Resultado: " + resultado);
+                break;
+        case '*':
+                resultado = num1 * num2;
                 System.out.println("Resultado: " + resultado);
                 break;
 
