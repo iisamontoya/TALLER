@@ -27,7 +27,10 @@ Scanner scanner = new Scanner(System.in);
                 System.out.println("Resultado: " + resultado);
                 break;
 
-
+                case '*':
+                resultado = num1 * num2;
+                System.out.println("Resultado: " + resultado);
+                break;
 
 
 }
